@@ -1,0 +1,50 @@
+.admin-container {
+  display: flex;
+}
+
+.sidebar {
+  width: 220px;
+  background: #343a40;
+  color: white;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.sidebar h4 {
+  margin-bottom: 1rem;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sidebar ul li {
+  padding: 0.5rem 0;
+  cursor: pointer;
+}
+
+.sidebar ul li:hover {
+  color: #ffc107;
+}
+
+.admin-main {
+  flex: 1;
+  padding: 2rem;
+}
+
+.stats {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.card {
+  background: #f8f9fa;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  flex: 1;
+  text-align: center;
+  font-weight: bold;
+}
