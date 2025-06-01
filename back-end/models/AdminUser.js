@@ -5,4 +5,5 @@ const adminUserSchema = new mongoose.Schema({
     password: { type: String, required: true } 
 });
 
+// export du modele pour le rendre accessible dans d'autres fichiers
 module.exports = mongoose.model('AdminUser', adminUserSchema);
