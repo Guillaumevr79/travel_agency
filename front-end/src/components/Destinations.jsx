@@ -4,7 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 export default function Destinations({ destinations }) {
     const [search, setSearch] = useState("");
 
-    // Filtrage dynamique
+    // Filtrage dynamique des destinations
+    // en fonction de la saisie de l'utilisateur
     const filteredDestinations = destinations.filter((dest) =>
         dest.lieu.toLowerCase().includes(search.toLowerCase())
     );
